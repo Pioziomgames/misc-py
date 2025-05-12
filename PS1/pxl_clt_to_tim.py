@@ -35,7 +35,7 @@ def main():
         print("pxl_clt_to_tim.py by Pio")
         print("Converts PS1 pxl and clt files to a tim texture")
         print("\nUsage: pxl_clt_to_tim.py <input.pxl> <input.clt> [output.tim]")
-        print("If output_basename is not provided, input pxl filename will be used as base")
+        print("If output.tim is not provided, input pxl filename will be used instead")
         return
 
     pxl_file = sys.argv[1]
